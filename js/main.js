@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('Hi ebby').split('');
+        const titles = ('hi my lovely eyi!').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "I bring flowers for you as a reward for your hard work today.";
+            subtitle.innerText = "Happy two-year anniversary to my partner in crime! From silly jokes to serious talks, you've made every moment unforgettable. Let's keep the fun times rolling and create more beautiful memories together.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
