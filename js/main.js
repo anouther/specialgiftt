@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('hi my lovely eyi!').split('');
+        const titles = ('Happy anniversary, Ayin!').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Happy two-year anniversary to my partner in crime! From silly jokes to serious talks, you've made every moment unforgettable. Let's keep the fun times rolling and create more beautiful memories together.";
+            subtitle.innerText = "Every moment with you is an incredible blessing. Thank you for being my partner in life, full of love and understanding. I promise to always cherish and love you with all my heart, forever. May our love continue to grow and remain happy forever. I love you more than words can express.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
